@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -28,3 +29,25 @@ body {
   color: #9ca3af;
 }
 
+
+.menu {
+  background-color: #374151;
+  padding: 0.75rem 1rem;
+}
+
+.menu__lista {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.menu__enlace {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu__enlace:hover {
+  color: #fbbf24;
+}
